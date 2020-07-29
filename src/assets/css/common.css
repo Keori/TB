@@ -1,0 +1,227 @@
+.g_button {
+  display: block;
+  width: 100%;
+  height: .84rem;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #12b0f3, #0478fb);
+  border-radius: 0.1rem;
+  font-size: 0.33rem;
+  text-align: center;
+  line-height: .84rem;
+  color: #fff;
+}
+.g_button.fixed {
+  position: fixed;
+  left: 50%;
+  bottom: 0.39rem;
+  width: 6.67rem;
+  transform: translateX(-50%);
+}
+.g_button.border {
+  background: none;
+  border: 1px #2188FB solid;
+  color: #00A0E9;
+}
+.g_button.white {
+  background: #fff;
+  color: #93A0AA;
+}
+.g_form {
+  padding: 0 0.41rem;
+}
+.g_form .g_title {
+  padding: 0.75rem 0 0.57rem;
+}
+.g_form .g_label {
+  margin-bottom: 0.46rem;
+}
+.g_input {
+  position: relative;
+  height: 0.78rem;
+  background: rgba(237, 237, 237, 0);
+  border: 1px solid #d6d6d6;
+  border-radius: 0.1rem;
+}
+.g_input input {
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-size: 0.29rem;
+  color: #1F3E58;
+  text-indent: 0.27rem;
+  box-sizing: border-box;
+  padding-right: 0.7rem;
+}
+.g_input .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+}
+.g_input .right .arrowDown {
+  margin: 0 0.2rem 0 0;
+  width: 0.3rem;
+  align-self: center;
+}
+.g_input .right .arrowRight {
+  margin: auto 6px auto 0;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.g_input .right .eyes {
+  margin-right: 0.16rem;
+  height: 100%;
+  align-self: center;
+}
+.g_input .right .close {
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-right: 0.3rem;
+  align-self: center;
+}
+.g_input .right .text {
+  margin-right: 0.27rem;
+  line-height: 0.78rem;
+  color: #506271;
+}
+.g_input .right .code,
+.g_input .right .timeout {
+  margin-right: 0.26rem;
+  line-height: 0.78rem;
+  color: #2188FB;
+}
+.g_input .right .timeout {
+  color: #999;
+}
+.g_input .right .adr {
+  width: 0.39rem;
+  height: 0.45rem;
+  margin: 0.14rem 0.1rem 0 0.1rem;
+}
+.g_input .disabled {
+  background: #f3f3f3;
+}
+.g_label .title {
+  padding-bottom: 0.14rem;
+  color: #506271;
+}
+.g_label .note {
+  padding-bottom: 0.19rem;
+  font-size: 0.245rem;
+  color: #93A0AA;
+}
+.g_title .left {
+  width: 0.22rem;
+  height: 0.33rem;
+  margin-right: 0.19rem;
+  background: linear-gradient(90deg, #03c2fc, #006ae1);
+  border-radius: 0.06rem;
+}
+.g_title .title {
+  font-size: 0.33rem;
+  color: #1F3E58;
+}
+.g_tab {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.12rem;
+  background: #fff;
+  text-align: center;
+  font-size: 0.21rem;
+  border-top: 1px #eee solid;
+}
+.g_tab .pic {
+  height: 0.75rem;
+  background: transparent no-repeat center 0.1rem;
+  background-size: 0.52rem;
+}
+.g_tab p {
+  color: #858585;
+  height: 100%;
+}
+.g_tab .router-link-exact-active p {
+  color: #2188FB;
+}
+.g_tab .R1 .pic {
+  background-image: url(../../assets/imgs/tab_1.png);
+}
+.g_tab .R1 .router-link-exact-active .pic {
+  background-image: url(../../assets/imgs/tab_1_active.png);
+}
+.g_tab .R2 .pic {
+  background-image: url(../../assets/imgs/tab_3.png);
+  background-size: 0.47rem;
+  background-position: center center;
+}
+.g_tab .R2 .router-link-exact-active .pic {
+  background-image: url(../../assets/imgs/tab_3_active.png);
+}
+.g_tab .R3 .pic {
+  background-image: url(../../assets/imgs/tab_4.png);
+}
+.g_tab .R3 .router-link-exact-active .pic {
+  background-image: url(../../assets/imgs/tab_4_active.png);
+}
+.g_head {
+  position: relative;
+  height: 0.95rem;
+  background: #fff;
+  border-bottom: 1px #ededed solid;
+}
+.g_head .leftBox {
+  position: absolute;
+  left: 0.3rem;
+  top: 0;
+  height: 100%;
+  width: 0.35rem;
+  background: url(../../assets/imgs/head_arrow_03.png) no-repeat 0.05rem center;
+  background-size: 0.2rem;
+}
+.g_head .rightBox {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding-right: 0.29rem;
+  line-height: 0.95rem;
+  font-size: 0.33rem;
+  color: #00A0E9;
+}
+.g_head .title {
+  font-size: 0.35rem;
+  color: #1F3E58;
+  text-align: center;
+  line-height: 0.95rem;
+  width: 6rem;
+  margin: 0 auto;
+}
+.g_head .tab {
+  justify-content: center;
+}
+.g_head .tab li {
+  flex: none;
+  height: 0.6rem;
+  margin: 0 0.27rem;
+  padding-top: 0.35rem;
+  color: #93A0AA;
+  font-size: 0.35rem;
+}
+.g_head .tab li.active {
+  border-bottom: 0.05rem #2188fb solid;
+  color: #2188fb;
+}
+.g_tips {
+  padding: 0.62rem 0 1.11rem;
+  font-size: 0.25rem;
+}
+.g_tips .caption {
+  padding-bottom: 0.3rem;
+  color: #506271;
+}
+.g_tips p {
+  color: #93A0AA;
+  line-height: 0.42rem;
+}
